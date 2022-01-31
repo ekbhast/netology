@@ -1,3 +1,25 @@
 * {
-    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+body {
+    min-width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg);
+}
+
+.logo {
+    width: 179px;
+}
+.intro {
+    font-size: 45px;
+    color:#ffffff;
 }
